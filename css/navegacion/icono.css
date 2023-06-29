@@ -1,0 +1,43 @@
+.logo__navegacion{
+    width: 50px;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    padding-left: 3rem;
+}
+
+.nombre__portafolio{
+    width: 650px;
+    margin-left: 0.5rem;
+    font-family: 'Crete Round', serif;
+    font-size: 0.8rem;
+}
+
+@media screen and (max-width: 400px) and (min-width: 0){
+    .logo__navegacion{
+        width: 10rem;
+    }
+    .nombre__portafolio{
+        display: inline-block;
+        position: absolute;
+        left: 260px;
+        font-size: 3rem;
+        font-family: raleway;
+        font-weight: 700;
+        color: #464646;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .logo__navegacion{
+        width: 100px;
+    }
+    .nombre__portafolio{
+        display: inline-block;
+        position: absolute;
+        left: 200px;
+        font-size: 2rem;
+        font-family: raleway;
+        font-weight: 700;
+        color: #464646;
+    }
+}

@@ -1,0 +1,31 @@
+.navegacion{
+    background: #DBE4F1;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+
+@media screen and (max-width: 400px) and (min-width: 0){
+    .navegacion{
+        width: 1270px;
+        height: 200px;
+    }
+    .panel__navegacion{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .navegacion{
+        width: 1284px;
+        height: 150px;
+    }
+    .panel__navegacion{
+        display: none;
+    }
+    
+}

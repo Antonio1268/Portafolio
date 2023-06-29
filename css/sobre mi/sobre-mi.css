@@ -1,0 +1,25 @@
+.sobre__mi{
+    position:relative;
+    width: 751px;
+    height: 133px;
+    
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-bottom: 5rem;
+
+}
+
+
+@media screen and (max-width: 400px) and (min-width: 0){
+    .sobre__mi{
+        width: 1000px;
+        height: 1000px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+   .sobre__mi{
+        width: 1020px;
+   }
+   
+}

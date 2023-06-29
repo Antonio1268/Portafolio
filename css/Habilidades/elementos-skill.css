@@ -1,0 +1,33 @@
+.elementos__skill{
+    background: #E7EFFB;
+    width: 250px;
+    height: 176px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1.5rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem 0.2rem #d0cad1;
+    border-radius: 5%;
+}
+
+@media screen and (max-width: 400px) and (min-width: 0){
+    .elementos__skill{
+        width: 500px;
+        height: 400px; 
+    }
+    .logo__skill{
+        width: 6.5rem;
+    }
+    .descripcion__skill{
+        display: flex;
+        font-size: 4.5rem;
+        font-weight: 700;
+        padding-left: 2rem;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .elementos__skill{
+        width: 320px;
+        height: 210px;
+    }
+}

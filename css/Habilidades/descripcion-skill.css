@@ -1,0 +1,19 @@
+.descripcion__skill{
+    display: inline-block;
+    position: relative;
+    top: 135px;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #464646;
+
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .descripcion__skill{
+        position: relative;
+        top: 86px;
+        font-size: 2.5rem;
+    }
+}

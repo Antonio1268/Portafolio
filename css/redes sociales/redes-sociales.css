@@ -1,0 +1,34 @@
+.sociales__generales{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.redes__sociales{
+    display: flex;
+    padding-top: 1rem;
+}
+
+
+@media screen and (max-width: 400px) and (min-width: 0){
+    .acceso__redes{
+        font-size: 3.2rem;
+
+    }
+    .sociales__generales{
+        padding-top: 2.3rem;
+        padding-bottom: 1.3rem;
+    }
+    .flecha__enlace{
+        width: 2.6rem;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .acceso__redes{
+        font-size: 2.3rem;
+    }
+    .sociales__generales{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}

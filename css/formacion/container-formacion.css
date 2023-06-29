@@ -1,0 +1,17 @@
+.container__formacion{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom:60px;
+    flex-wrap: wrap;
+
+    padding-top: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .container__formacion{
+        padding-top: 3rem;
+    }
+}

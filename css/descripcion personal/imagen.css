@@ -1,0 +1,25 @@
+.imagen__personal{
+    width: 368px;
+    height: 368px;
+    border-radius: 100%;
+    padding: 2rem;
+    margin: 1rem;
+    position: relative;
+    right: 2rem;
+}
+
+@media screen and (max-width: 400px) and (min-width: 0){
+    .imagen__personal{
+        position: relative;
+         right: 19rem;
+         padding-bottom: 1rem;
+         margin: 20px;
+         padding: 20px;
+    }
+ }
+
+ @media screen and (max-width: 1024px) and (min-width: 768px){
+    .imagen__personal{
+        right: 9px;
+    }
+}

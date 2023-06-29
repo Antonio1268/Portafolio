@@ -1,0 +1,18 @@
+.formacion__seccion{
+    background: #D1DFF4;
+    
+}
+
+@media screen and (max-width: 400px) and (min-width: 0){
+    .formacion__seccion{
+        width: 1290px;
+        height: 750px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .formacion__seccion{
+        width: 1330px;
+        height: 500px;
+    }
+}

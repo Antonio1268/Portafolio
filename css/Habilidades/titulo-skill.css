@@ -1,0 +1,25 @@
+.titulo__secciones{
+   padding-top: 1rem;
+   text-align: center;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 700;
+   font-size: 32px;
+   color:#464646;
+}
+
+@media screen and (max-width: 400px) and (min-width: 0){
+   .titulo__secciones{
+      font-size: 100px;
+      text-align: center;
+      padding-left: 2rem;
+   }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+   .titulo__secciones{
+      font-size: 68px;
+      text-align: center;
+      padding-left: 2rem;
+      width: 1198px;
+   }
+}

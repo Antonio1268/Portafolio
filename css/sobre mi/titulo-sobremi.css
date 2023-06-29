@@ -1,0 +1,22 @@
+.titulo__sobremi{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+    color: #464646;
+}
+
+@media screen and (max-width: 400px) and (min-width: 0){
+    .titulo__sobremi{
+        font-size: 4.5rem;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .titulo__sobremi{
+        font-size: 4rem;
+        padding-bottom: 2rem;
+    }
+}

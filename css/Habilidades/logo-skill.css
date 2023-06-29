@@ -1,0 +1,51 @@
+.logo__skill{
+    display: inline-block;
+    position: relative;
+    top: 110px;
+    left: 2rem;
+}
+
+.logo__skill-word{
+    display: inline-block;
+    position: relative;
+    top: 110px;
+    left: 2rem;
+    width: 40px;
+
+}
+
+.logo__skill-powerpoint{
+    display: inline-block;
+    position: relative;
+    top: 110px;
+    left: 2rem;
+    width: 25px;
+}
+
+@media screen and (max-width: 400px) and (min-width: 0){
+    .logo__skill-word{
+        width: 9rem;
+    }
+    .logo__skill-powerpoint{
+        width: 6.5rem;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .logo__skill{
+        width: 65px;
+        position: relative;
+        top: 41px;
+    }
+    .logo__skill-word{
+        width:80px;
+        position: relative;
+        top: 41px;
+    }
+    .logo__skill-powerpoint{
+        width:65px;
+        position: relative;
+        top: 41px;
+    }
+
+}

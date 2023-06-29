@@ -1,0 +1,30 @@
+.imagen__pieDepagina{
+    padding-left: 7rem;
+}
+
+@media screen and (max-width: 400px) and (min-width: 0){
+    .pieDepagina__portafolio{
+        width: 1290px;
+        height: 1500px;
+    }
+    .imagen__pieDepagina{
+        display: none;
+    }
+    .imagen__pieDepagina{
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .pieDepagina__portafolio{
+        height: 1500px;
+        width: 1331px;
+    }
+    .imagen__pieDepagina{
+        display: none;
+    }
+    .imagen__pieDepagina{
+        flex-direction: column;
+    }
+}

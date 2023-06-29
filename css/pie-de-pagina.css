@@ -1,0 +1,10 @@
+.pieDepagina__portafolio{
+    background: #DBE4F1;
+}
+
+.pieDepagina{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

@@ -1,0 +1,22 @@
+.descripcion__general{
+    display:flex;
+    align-items: center;
+    background: #f4f0f5;
+}
+
+@media screen and (max-width: 400px) and (min-width: 0){
+    .descripcion__general{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+
+        width:1312px;
+   }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .descripcion__general{
+        width: 1330px;
+    }
+    
+}

@@ -1,0 +1,9 @@
+.elementos__navegacion{
+    display: flex;
+    margin-right: 1.4rem;
+    list-style: none;
+    font-style: unset;
+    color:black;
+    font-family: 'Jost', sans-serif;;
+}
+
